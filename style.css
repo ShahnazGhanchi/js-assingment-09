@@ -1,0 +1,89 @@
+* General Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* LOGIN PAGE */
+.login-body {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 350px;
+}
+
+/* DASHBOARD */
+.dashboard-body {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #212529;
+  color: white;
+  padding-top: 2rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover,
+.sidebar li.active {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+/* Topbar */
+.topbar input,
+.topbar select {
+  min-width: 180px;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+/* Animation for smooth open/close */
+#toggleBtn {
+  border: none;
+  background: transparent;
+  color: #212529;
+}
