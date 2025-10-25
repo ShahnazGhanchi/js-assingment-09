@@ -6,7 +6,9 @@ body {
 
 /* LOGIN PAGE */
 .login-body {
-  background: linear-gradient(135deg, #007bff, #6610f2);
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  font-family: "Poppins", sans-serif;
+
   height: 100vh;
   display: flex;
   justify-content: center;
