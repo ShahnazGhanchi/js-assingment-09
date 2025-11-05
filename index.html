@@ -9,33 +9,35 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="login-body d-flex justify-content-center align-items-center vh-100 flex-column">
+   <div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Left Side: Welcome Section -->
+    <div class="col-md-6 text-center mb-4 mb-md-0 animate__animated animate__zoomIn">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" 
+           alt="Business Logo" 
+           class="mb-3 logo-img animate__animated animate__pulse animate__infinite" 
+           width="100">
+      <h1 class="fw-bold text-primary display-5  animate__animated animate__fadeInLeft">
+        Welcome to <span class="text-light">GHANCHI'S Mini Mart</span>
+      </h1>
+      <p class="text-secondary fs-4">We’re glad to have you here — please login to continue</p>
+      <p class="text-secondary fs-4">We also provide you the best customer service...</p>
+    </div>
 
-  <!-- 🔹 Welcome Section -->
-  <div class="text-center mb-4 animate__animated animate__zoomIn">
-    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" 
-         alt="Business Logo" 
-         class="mb-3 logo-img animate__animated animate__pulse animate__infinite" 
-         width="100">
-    <h1 class="fw-bold text-primary display-5">Welcome to <span class="text-success">Ghanchi Mini Mart</span></h1>
-    <p class="text-secondary fs-4">We’re glad to have you here — please login to continue</p>
+    <!-- Right Side: Login Form -->
+    <div class="col-md-6">
+      <div class="login-card shadow p-4">
+        <h2 class="text-center mb-3 text-center mb-3 text-primary fw-bold">Customer Login</h2>
+        <p class="text-center text-primary mb-4">Manage your store securely</p>
 
-    <p class="text-secondary fs-4"> We are also provide you best customer service......</p>
+        <input type="text" id="username" class="form-control mb-3" placeholder="Enter Username">
+        <input type="email" id="email" class="form-control mb-3" placeholder="Enter Email">
+        <input type="password" id="password" class="form-control mb-4" placeholder="Enter Password">
+        <button id="loginBtn" class="btn btn-primary w-100">Login</button>
+      </div>
+    </div>
   </div>
-
-
-
-<!-- Login Form -->
-<!-- <
-  -->
-<!-- <body class="login-body"> -->
-
-  <div class="login-card shadow">
-    <h2 class="text-center mb-3">Admin Login</h2>
-    <input type="text" id="username" class="form-control mb-3" placeholder="Enter Username">
-    <input type="email" id="email" class="form-control mb-3" placeholder="Enter Email">
-    <input type="password" id="password" class="form-control mb-4" placeholder="Enter Password">
-    <button id="loginBtn" class="btn btn-primary w-100">Login</button>
-  </div>
+</div>
 
 
 
